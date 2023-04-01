@@ -1,0 +1,132 @@
+
+"""
+AQ
+
+Q: What is Gross?  In question 1a, you ask "How much do you gross from the sale of your options (assume the stock 
+price remains at $18.42 and ignore taxes and fees)".  What does Gross mean?
+
+A:  Gross just means how much money do you make as the employee who is executing and selling your options. It is simply the difference between the market price of the share and your stock option strike price. Since we are ignoring taxes and transaction fees this amount would not represent the true 'Net' amount you would make as the employee.
+
+Q: I  have a question regarding the hw that is due next week.   In the phrase "...a total off 10,000 shares of common stock, par value of $.001 per share,  of the company at $3.96 per share..." does it mean that they employee purchased 10000 shares for $.001 a share or for $3.96 per share?  (did they spend $10 or $39,600 to purchase these options?).  Any information helps.
+
+A: Good question. You can ignore the "Par Value" for the purposes of this homework assignment. If you are interested in learning more, please ask me in class next week and I can explain. What is important is the strike price of $3.96 per share. This is the predetermined price the employee will pay in the future when they have vested their shares and have decided to execute their options.  As an example if you assume they have vested a portion of their options at some point in the future and they would like to execute those options and sell the underlying shares on the open market for the current market price of $5.96, then the employee would pocket the gain of $2 per share.  
+
+Q:  question #3 for the HW.  I dont totally understand what the situation is that it is describing.  How does the IPO affect the sale of the common stocks?  Does it just mean that they can be publicly traded now? 
+
+A: Correct. The IPO makes the shares in ZipCar public. In other words, after the IPO there is a public market than anyone can buy/sell the shares. An employee holding the stock options as described in the homework assignment will have the opportunity to execute their options and sell the underlying shares at the stated market price. The assignment is asking you to determine when they can sell (google 'ipo lockout restrictions') and at what price. The earliest the employee can cash out their options is subject to an initial lockout period AND vesting requirements. The easiest way to solve the problem is to execute and sell a block of vested options as soon as the lockup period ends and then smaller increments each month thereafter as vesting occurs. Hint: there will be multiple transactions.
+
+Q:  When considering the "original" value that is to be used, are we to use the amount of vested stocks at the time of the options exercise or the full 10,000 shares at $3.96 a share?
+
+A:  I believe you are asking about when/how to use the strike price. Every time you exercise an option for the grant you received from ZipCar on March 1, 2010 you are allowed to purchase the underlying share for the strike price (also know as the Fair Market Value of the share of common stock on the Grant Date). Once the option on a single share is executed you will own that share. You can then choose to hold it or sell it. Most people choose to immediately execute and sell their options in what is known as a cashless transaction - in effect they receive a check for the financial gain between market and strike price (minus fees).
+
+ 
+
+Q:  Several questions
+
+1. I am confused as to why there would be multiple transactions after 180 days(which i got from google) ? why can't the person sell the 75% of the shares ( given 40 days - hence eligible for selling 75% of the shares ) all at once ? 
+2. Even if we have multiple transactions , will it be based on the vesting schedule? like will he be doing 3 transactions ? 
+3. After 180 days will the value given as $62.87 remain the same ? 
+4. Could you also explain the next part to part 3 which says "Assume the price per share of ZipCar stock continuously falls by $1.45per share per month on a linear trajectory . For this calculation assume 40 months have elapsed at the time the company goes public " Should we consider this as a separate question or should we consider this in the calculation to the question of the earliest date and the transaction possible?
+
+A: Good questions. I will try to address each one by number below.
+
+1. Yes, they can sell the largest block of vested shares once the lock up period expires (check the agreement for the lock out time duration - section 5). However the remaining options are not yet vested and hence can not be executed and sold.
+2. Yes, the fictitious employee is attempting to cash out all of their stock options as fast as possible as allowed by the IPO lock out, vesting schedule, and any other restrictions. This means the fictitious employee will sell most of their shares in the first transaction immediately upon expiration of the lock out. Then they will complete monthly transactions as the remaining options become vested per the vesting schedule (check the agreement - section 2).
+3. No, the share price in this scenario is at its highest at the IPO and continues to decrease by $1.45 per month every month thereafter. This is a common scenario for recent IPOs - they start high and keep declining. Try googling your favorite IPO company and look at its share price over time.
+4. Yes, share price drops at $1.45 per share every month since the IPO date 40 months since the fictitious employee accepted their Zip Car options grant. In other words, on the day of the IPO the share price was $62.87. The next month it falls to $61.42. The next month it falls to $59.97. And so on…. As the fictitious employee, you want to execute and sell your options as soon as you can, because their financial value to you is decreasing every month…
+Q1. When it comes to the "gross sale" in all 3 scenarios, do I need to exclude/minus the "cost" of obtaining these stock options ($3.96 per share)?
+
+A1.  Yes. Please calculate the amount of money the employee will receive upon the execution and sale of their options using the market price at that time and the strike price defined at the time of the stock option award.  The term 'Gross' in this case means no taxes, fees, or other transactional costs.
+
+Q2. For scenario b, since the employment was terminated for cause from Zip Car, the selling of such stock options will not be available. Should I consider the gross to be zero?
+
+A2. I won't give away the answer in this forum, but I will direct you to read sections 3a to 3e which address what happens when an employee is not longer employed at the company.
+ 
+"""
+
+"""
+
+Exhibit A 
+NOTICE OF STOCK OPTION EXERCISE 
+Date:                          1 
+Zipcar, Inc. 
+25 First Street, Fourth Floor 
+Cambridge, MA 02141 
+Attention: Treasurer 
+Dear Sir or Madam: 
+I am the holder of                  2 Stock Option granted to me under the Zipcar, Inc. 
+(the “Company”) 2010 Stock Incentive Plan on                  3 for the purchase 
+of                  4 shares of Common Stock of the Company at a purchase price of 
+$                 5 per share. 
+I hereby exercise my option to purchase                  6 shares of Common Stock (the 
+“Shares”), for which I have enclosed                  7 in the amount of                  8. 
+Please register my stock certificate as follows: 
+  
+       
+   Name(s):                                                9 
+    
+           
+    
+   Address:        
+    
+   Tax I.D. #:                                                
+ 1
+0 
+  
+1 Enter the date of exercise. 
+2 Enter either “an Incentive” or “a Nonstatutory”. 
+3 Enter the date of grant. 
+4 Enter the total number of shares of Common Stock for which the option was granted. 
+5 Enter the option exercise price per share of Common Stock. 
+6 Enter the number of shares of Common Stock to be purchased upon exercise of all or part of the option. 
+7 Enter “cash”, “personal check” or if permitted by the option or Plan, “stock certificates No. XXXX and XXXX”. 
+8 Enter the dollar amount (price per share of Common Stock times the number of shares of Common Stock to be purchased), or the number of shares tendered. Fair market value of shares tendered, together with 
+cash or check, must cover the purchase price of the shares issued upon exercise. 
+9 Enter name(s) to appear on stock certificate: (a) Your name only; (b) Your name and other name (i.e., John Doe and Jane Doe, Joint Tenants With Right of Survivorship); or (c) In the case of a Nonstatutory 
+option only, a Child’s name, with you as custodian (i.e., Jane Doe, Custodian for Tommy Doe). Note: There may be income and/or gift tax consequences of registering shares in a Child’s name. 
+10 Social Security Number of Holder(s). 
+ 
+ 
+I represent, warrant and covenant as follows: 
+1. I am purchasing the Shares for my own account for investment only, and not 
+with a view to, or for sale in connection with, any distribution of the Shares in 
+violation of the Securities Act of 1933 (the “Securities Act”), or any rule or 
+regulation under the Securities Act. 
+I have had such opportunity as I have deemed adequate to obtain from 
+representatives of the Company such information as is necessary to permit me to 
+evaluate the merits and risks of my investment in the Company. 
+I have sufficient experience in business, financial and investment matters to be 
+able to evaluate the risks involved in the purchase of the Shares and to make an 
+informed investment decision with respect to such purchase. 
+I can afford a complete loss of the value of the Shares and am able to bear the 
+economic risk of holding such Shares for an indefinite period. 
+I understand that (i) the Shares have not been registered under the Securities Act 
+and are “restricted securities” within the meaning of Rule 144 under the Securities 
+Act, (ii) the Shares cannot be sold, transferred or otherwise disposed of unless they 
+are subsequently registered under the Securities Act or an exemption from 
+registration is then available; (iii) in any event, the exemption from registration 
+under Rule 144 will not be available for at least one year and even then will not be 
+available unless a public market then exists for the Common Stock, adequate 
+information concerning the Company is then available to the public, and other 
+terms and conditions of Rule 144 are complied with; and (iv) there is now no 
+registration statement on file with the Securities and Exchange Commission with 
+respect to any stock of the Company and the Company has no obligation or current 
+intention to register the Shares under the Securities Act. 
+  
+ 
+Very truly yours, 
+ 
+  
+(Signature) 
+  
+10 
+
+
+
+"""
+
+
+
+
+
+
